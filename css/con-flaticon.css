@@ -5,8 +5,8 @@
 
 	@font-face {
 		font-family: "Flaticon-arrows";
-		src: url("/home/fonts/flaticon.eot");
-		src: url("/home/fonts/flaticon.eot?#iefix") format("embedded-opentype"), url("/home/fonts/Flaticon.woff") format("woff"), url("/home/fonts/flaticon.ttf") format("truetype"), url("/home/fonts/flaticon.svg#Flaticon") format("svg");
+		src: url("/fonts/flaticon.eot");
+		src: url("/fonts/flaticon.eot?#iefix") format("embedded-opentype"), url("/fonts/Flaticon.woff") format("woff"), url("/fonts/flaticon.ttf") format("truetype"), url("/fonts/flaticon.svg#Flaticon") format("svg");
 		font-weight: normal;
 		font-style: normal;
 	}
@@ -14,7 +14,7 @@
 	@media screen and (-webkit-min-device-pixel-ratio:0) {
 		@font-face {
 			font-family: "Flaticon-arrows";
-			src: url("/home/fonts/flaticon.svg#Flaticon") format("svg");
+			src: url("/fonts/flaticon.svg#Flaticon") format("svg");
 		}
 	}
 

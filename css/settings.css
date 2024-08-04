@@ -81,8 +81,8 @@ website:   	http://www.themepunch.com
 
 @font-face {
     font-family: 'revicons';
-    src: url('../home/fonts/revicons.eot?5510888');
-    src: url('../home/fonts/revicons.eot?5510888#iefix') format('embedded-opentype'), url('../home/fonts/revicons.woff?5510888') format('woff'), url('../home/fonts/revicons.ttf?5510888') format('truetype'), url('../home/fonts/revicons.svg?5510888#revicons') format('svg');
+    src: url('../fonts/revicons.eot?5510888');
+    src: url('../fonts/revicons.eot?5510888#iefix') format('embedded-opentype'), url('../fonts/revicons.woff?5510888') format('woff'), url('../fonts/revicons.ttf?5510888') format('truetype'), url('../fonts/revicons.svg?5510888#revicons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -512,11 +512,11 @@ website:   	http://www.themepunch.com
 /* CAROUSEL FUNCTIONS */
 
 .tp-carousel-wrapper {
-    cursor: url(../home/cur/openhand.cur), move;
+    cursor: url(../cur/openhand.cur), move;
 }
 
 .tp-carousel-wrapper.dragged {
-    cursor: url(../home/cur/closedhand.cur), move;
+    cursor: url(../cur/closedhand.cur), move;
 }
 
 /* ADDED FOR SLIDELINK MANAGEMENT */
@@ -1036,19 +1036,19 @@ img.tp-slider-alternative-image {
 }
 
 .tp-dottedoverlay.twoxtwo {
-    background: url(../home/images/gridtile.png)
+    background: url(../images/gridtile.png)
 }
 
 .tp-dottedoverlay.twoxtwowhite {
-    background: url(../home/images/gridtile_white.png)
+    background: url(../images/gridtile_white.png)
 }
 
 .tp-dottedoverlay.threexthree {
-    background: url(../home/images/gridtile_3x3.png)
+    background: url(../images/gridtile_3x3.png)
 }
 
 .tp-dottedoverlay.threexthreewhite {
-    background: url(../home/images/gridtile_3x3_white.png)
+    background: url(../images/gridtile_3x3_white.png)
 }
 
 /******************************
@@ -1575,11 +1575,11 @@ img.tp-slider-alternative-image {
 .tp-caption.slidelink a div {
     width: 3000px;
     height: 1500px;
-    background: url(../home/images/coloredbg.png) repeat
+    background: url(../images/coloredbg.png) repeat
 }
 
 .tp-caption.slidelink a span {
-    background: url(../home/images/coloredbg.png) repeat
+    background: url(../images/coloredbg.png) repeat
 }
 
 .tp-shape {
@@ -1654,7 +1654,7 @@ img.tp-slider-alternative-image {
     width: 40px;
     height: 40px;
     background-color: #fff;
-    background-image: url(../home/images/loader.gif);
+    background-image: url(../images/loader.gif);
     background-repeat: no-repeat;
     background-position: center center;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
@@ -1676,7 +1676,7 @@ img.tp-slider-alternative-image {
 }
 
 .tp-loader.spinner5 {
-    background-image: url(../home/images/loader.gif);
+    background-image: url(../images/loader.gif);
     background-repeat: no-repeat;
     background-position: 10px 10px;
     background-color: #fff;
